@@ -1,0 +1,650 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mohit | Developer Portfolio</title>
+  <meta name="description" content="Mohit's personal developer portfolio and coding projects.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mohit.Dev | Portfolio">
+  <meta property="og:description" content="Explore my portfolio, projects and coding journey.">
+  <meta property="og:image" content="https://mohitdev-ten.vercel.app/assets/Webpage.png">
+  <meta property="og:url" content="https://mohitdev-ten.vercel.app/">
+  <link rel="icon" href="assets/Logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <!-- SEO Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://mohitdev-ten.vercel.app/#person",
+        "name": "Mohit Bhargav",
+        "url": "https://mohitdev-ten.vercel.app/",
+        "sameAs": [
+          "https://github.com/MohitBhargava1234"
+        ],
+        "knowsAbout": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Python",
+          "Frontend Development"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://mohitdev-ten.vercel.app/#website",
+        "url": "https://mohitdev-ten.vercel.app/",
+        "name": "Mohit.Dev",
+        "publisher": {
+          "@id": "https://mohitdev-ten.vercel.app/#person"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="logo">Mohit<span>.Dev</span></a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#edu">Academics</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light mode">
+    <i class="fa-regular fa-moon"></i>
+</button>
+      
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+
+        <p class="eyebrow">BUILDING MY FUTURE, ONE PROJECT AT A TIME.</p>
+
+        <h1>
+          I'm Mohit,<br>
+          an aspiring <span class="gradient-text">developer.</span>
+        </h1>
+         <p class="hero-description">
+  I'm a B.Sc. student learning frontend development through practical projects.
+  I enjoy building websites, solving problems with Python, and exploring
+  how AI can make development more productive.
+</p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+          <a href="assets/resume.pdf"
+            target="_blank" rel="noopener noreferrer">
+           Download Resume↗
+          </a> 
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about reveal" id="about">
+
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+
+      <h2>
+         A curious learner with a passion for building.
+      </h2>
+
+      <p>I'm Mohit Bhargav, a B.Sc. student at Maharaja Ganga Singh University, Bikaner, with an interest in technology and software development.</p>
+      <p>I currently focus on HTML, CSS and JavaScript, while continuing to explore Python and artificial intelligence.</p>
+      <P>My long-term goal is to grow into a skilled frontend developer who can build accessible, responsive and useful digital experiences.</p>
+<div class="stats">
+        <div>
+          <strong>HTML &amp; CSS</strong>
+          <span>Web foundations</span>
+        </div>
+
+        <div>
+          <strong>Python</strong>
+          <span>Logic &amp; projects</span>
+        </div>
+
+        <div>
+          <strong>AI</strong>
+          <span>Exploring possibilities</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section reveal" id="skills">
+
+      <p class="eyebrow">WHAT I WORK WITH</p>
+
+      <h2>Technologies I'm exploring.</span></h2>
+
+    <div class="skills-grid">
+       <div class="skill-card">
+        <div class="skill-icon html-icon">
+            <i class="fa-brands fa-html5"></i>
+        </div>
+        <h3>HTML5</h3>
+        <p>Building structured and accessible web pages.</p>
+    </div>
+
+    <!-- CSS -->
+    <div class="skill-card">
+        <div class="skill-icon css-icon">
+            <i class="fa-brands fa-css3-alt"></i>
+        </div>
+        <h3>CSS3</h3>
+        <p>Creating responsive layouts, designs and animations.</p>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="skill-card">
+        <div class="skill-icon js-icon">
+            <i class="fa-brands fa-js"></i>
+        </div>
+        <h3>JavaScript</h3>
+        <p>Adding interactive functionality to websites.</p>
+    </div>
+
+    <!-- Python -->
+    <div class="skill-card">
+        <div class="skill-icon python-icon">
+            <i class="fa-brands fa-python"></i>
+        </div>
+        <h3>Python</h3>
+        <p>Developing programming logic and practical projects.</p>
+    </div>
+
+    <!-- AI -->
+    <div class="skill-card">
+        <div class="skill-icon ai-icon">
+            <i class="fa-solid fa-brain"></i>
+        </div>
+        <h3>Artificial Intelligence</h3>
+        <p>Exploring AI tools, agents and applications.</p>
+    </div>
+
+</div>
+    
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section reveal" id="edu">
+
+      <p class="eyebrow">EDUCATION &amp; LEARNING</p>
+
+      <h2>
+        My academic journey.
+      </h2>
+
+      <p class="section-description">
+       I'm currently pursuing a Bachelor of Science (B.Sc.) at Maharaja Ganga Singh University, Bikaner, with Botany, Chemistry and Zoology as my core subjects.
+      </p>
+       <p class="section-description">
+       Alongside my academic studies, I dedicate time to learning programming and exploring technology through practical projects and online learning opportunities.
+      </p>
+      <div class="education-grid">
+
+        <article class="edu-card qualification-card">
+          <div class="edu-icon">01</div>
+
+          <span class="edu-status ongoing">Currently Pursuing</span>
+
+          <h3>Bachelor of Science (B.Sc.)</h3>
+
+          <p class="edu-subtitle">
+            Maharaja Ganga Singh University, Bikaner
+          </p>
+
+          <p class="edu-description">
+            Pursuing undergraduate studies with Botany, Chemistry and Zoology as core subjects.
+          </p>
+
+          <div class="edu-details">
+            <span>Undergraduate</span>
+            <span>Ongoing</span>
+          </div>
+        </article>
+
+        <article class="edu-card qualification-card">
+          <div class="edu-icon">02</div>
+
+          <span class="edu-status completed">First Division</span>
+
+          <h3>Senior Secondary (12th)</h3>
+
+          <p class="edu-subtitle">
+            Dashmesh Public Sr. Sec. School, Silwala Khurd
+          </p>
+
+          <p class="edu-description">
+            Board of Secondary Education, Rajasthan<br>
+            Science Stream
+          </p>
+
+          <div class="edu-result">
+            <strong>75.20%</strong>
+            <span>376 / 500 marks</span>
+          </div>
+
+          <div class="edu-details">
+            <span>2024</span>
+            <span>RBSE</span>
+          </div>
+        </article>
+
+        <article class="edu-card qualification-card">
+          <div class="edu-icon">03</div>
+
+          <span class="edu-status completed">First Division</span>
+
+          <h3>Secondary (10th)</h3>
+
+          <p class="edu-subtitle">
+            Dayanand Adarsh S.S. Secondary School, Talwara Jheel
+          </p>
+
+          <p class="edu-description">
+            Board of Secondary Education, Rajasthan<br>
+            Secondary Education
+          </p>
+
+          <div class="edu-result">
+            <strong>79.33%</strong>
+            <span>476 / 600 marks</span>
+          </div>
+
+          <div class="edu-details">
+            <span>2022</span>
+            <span>RBSE</span>
+          </div>
+        </article>
+
+        <article class="edu-card">
+          <div class="edu-icon">04</div>
+
+          <h3>Current Learning</h3>
+
+          <div class="learning-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+          </div>
+
+          <p>
+            Practising responsive layouts, JavaScript interactions and programming
+            fundamentals through personal projects.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section reveal" id="certificates">
+
+      <p class="eyebrow">MY LEARNING JOURNEY</p>
+
+      <h2> Learning beyond the classroom.</h2>
+
+      <p class="section-description">
+       I believe learning doesn't stop with formal education. I regularly explore online courses and practical learning resources to understand emerging technologies and improve my technical knowledge.
+      </p>
+
+      <div class="education-grid">
+
+        <article class="edu-card certificate-card">
+          <img
+            src="assets/claude code.jpg"
+            alt="Claude Academy: Claude Code in action"
+            class="certificate-image"
+            loading="lazy"
+          >
+
+          <h3>Claude Academy: Claude Code in Action</h3>
+
+          <p class="edu-subtitle">Anthropic</p>
+
+          <p>Certificate earned after mastering Claude Code.</p>
+
+          <p>Earned on 23 November 2026</p>
+
+          <a href="assets/claude code.jpg"
+            target="_blank" rel="noopener noreferrer"
+            class="certificate-link">
+            View full certificate ↗
+          </a>
+        </article>
+
+        <article class="edu-card certificate-card">
+          <img
+            src="assets/Testsigma.jpg"
+            alt="AI QA Certification: Mastering Agentic Testing"
+            class="certificate-image"
+            loading="lazy"
+          >
+
+          <h3>AI QA Certification: Mastering Agentic Testing</h3>
+
+          <p class="edu-subtitle">Testsigma Academy</p>
+
+          <p>Certificate earned after mastering Agentic Testing.</p>
+
+          <p>Earned on 29 October 2026</p>
+
+          <a href="assets/Testsigma.jpg"
+            target="_blank" rel="noopener noreferrer"
+            class="certificate-link">
+            View full certificate ↗
+          </a>
+        </article>
+
+        <article class="edu-card certificate-card">
+          <img
+            src="assets/Kaggle.png"
+            alt="Google AI Agents Intensive Course certificate"
+            class="certificate-image"
+            loading="lazy"
+          >
+
+          <h3>5 Day AI Agents Intensive Course with Google</h3>
+
+          <p class="edu-subtitle">Google</p>
+
+          <p>Certificate earned after completing the AI Agents Intensive Course.</p>
+
+          <p>Earned on 18 December 2025</p>
+
+          <a href="assets/Kaggle.png"
+            target="_blank" rel="noopener noreferrer"
+            class="certificate-link">
+            View full certificate ↗
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section reveal" id="projects">
+
+      <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+
+      <h2>Learning by building.</h2>
+      <p class="section-description">
+       Every project in my portfolio represents something I have explored, practised or learned through hands-on development.
+      </p>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+
+          <img
+            src="assets/Ai chatbot.png"
+            alt="Screenshot of the chatbot running in the terminal"
+            class="project-image"
+            loading="lazy"
+          >
+
+          <div class="project-info">
+
+            <p class="project-type">PYTHON · CHATBOT</p>
+
+            <h3>Rule-Based Chatbot</h3>
+
+            <p>
+              A Python-based conversational program designed to respond to greetings, emotions and basic user messages. This project helped me practise conditional statements, functions, loops and programming logic.
+            </p>
+
+            <h4>Technology Used</h4>
+
+            <div class="tags">
+              <span>Loops</span>
+              <span>Functions</span>
+              <span>Conditional statements</span>
+              <span>Python</span>
+              <span>Logic</span>
+            </div>
+
+            <a
+              href="https://github.com/MohitBhargava1234/AI-Study-Buddy-Rule-Based-Chat-Assistant-in-Python-"
+              target="_blank" rel="noopener noreferrer"
+              class="project-link">
+              View source code ↗
+            </a>
+
+          </div>
+        </article>
+
+        <article class="project-card">
+
+          <img
+            src="assets/Exenpse Tracker.png"
+            alt="Screenshot of the Expense Tracker running in the terminal"
+            class="project-image"
+            loading="lazy"
+          >
+
+          <div class="project-info">
+
+            <p class="project-type">PYTHON · FINANCE</p>
+
+            <h3>Expense Tracker</h3>
+
+            <p>
+              A Python-based conversational program designed to respond to greetings, emotions and basic user messages. This project helped me practise conditional statements, functions, loops and programming logic.
+            </p>
+
+            <h4>Technology Used</h4>
+
+            <div class="tags">
+              <span>Loops</span>
+              <span>Conditional statements</span>
+              <span>Python</span>
+              <span>Data</span>
+            </div>
+
+            <a
+              href="https://github.com/MohitBhargava1234/Expense-tracker-in-phython.git"
+              target="_blank" rel="noopener noreferrer"
+              class="project-link">
+              View source code ↗
+            </a>
+
+          </div>
+        </article>
+
+        <article class="project-card">
+
+          <img
+            src="assets/Webpage.png"
+            alt="Screenshot of the Mohit.Dev portfolio website"
+            class="project-image"
+            loading="lazy"
+          >
+
+          <div class="project-info">
+
+            <p class="project-type">HTML · CSS · JS</p>
+
+            <h3>Creative Portfolio</h3>
+
+            <p>
+             My personal portfolio website, built using HTML, CSS and JavaScript. It brings together my background, skills, projects and learning journey in one responsive website. I also use this project to experiment with layouts, animations and theme switching.
+            </p>
+
+            <h4>Technology Used</h4>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Responsive</span>
+              <span>UI Design</span>
+            </div>
+
+            <a
+              href="https://github.com/MohitBhargava1234/mohit.dev"
+              target="_blank" rel="noopener noreferrer"
+              class="project-link">
+              View source code ↗
+            </a>
+
+            <a
+              href="https://mohitdev-ten.vercel.app/"
+              target="_blank" rel="noopener noreferrer"
+              class="button primary">
+              Live Demo ↗
+            </a>
+
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact reveal" id="contact">
+
+      <p class="eyebrow">HAVE AN IDEA?</p>
+
+      <h2>
+        Let's connect and exchange ideas.
+      </h2>
+
+      <p>I'm always interested in connecting with developers, exploring new technologies and learning from people in the tech community.</p>
+<p>Whether it's discussing a project, sharing ideas or connecting over development, feel free to reach out.</p>
+      <a href="mailto:mohitbhargav200610@gmail.com"
+               class="email-button">
+                <i class="fa-solid fa-envelope"></i>
+                Send me an email
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+
+        <div class="contact-divider"></div>
+
+        <div class="social-heading">
+            <h3>Find me on</h3>
+            <p>Let's connect across the internet.</p>
+        </div>
+
+        <div class="contact-social-grid">
+
+            <!-- GitHub -->
+            <a href="https://github.com/MohitBhargava1234"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-card github-card">
+
+                <i class="fa-brands fa-github"></i>
+
+                <div>
+                    <h4>GitHub</h4>
+                    <p>Explore my projects</p>
+                </div>
+
+                <i class="fa-solid fa-arrow-up-right-from-square card-arrow"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/mohit-bhargav-a7a908286/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-card linkedin-card">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                <div>
+                    <h4>LinkedIn</h4>
+                    <p>Professional networking</p>
+                </div>
+
+                <i class="fa-solid fa-arrow-up-right-from-square card-arrow"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/mohit.dev.06/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-card instagram-card">
+
+                <i class="fa-brands fa-instagram"></i>
+
+                <div>
+                    <h4>Instagram</h4>
+                    <p>Follow my coding journey</p>
+                </div>
+
+                <i class="fa-solid fa-arrow-up-right-from-square card-arrow"></i>
+            </a>
+
+            <!-- X -->
+            <a href="https://x.com/mohitbhargav011"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-card x-card">
+
+                <i class="fa-brands fa-x-twitter"></i>
+
+                <div>
+                    <h4>X (Twitter)</h4>
+                    <p>Thoughts & tech updates</p>
+                </div>
+
+                <i class="fa-solid fa-arrow-up-right-from-square card-arrow"></i>
+            </a>
+
+        </div>
+
+    </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <a href="#home" class="logo">
+      Mohit<span>.Dev</span>
+    </a>
+
+    <p>Designed and developed by Mohit Bhargav.</p>
+
+    <p>© <span id="year"></span> Mohit</p>
+
+  </footer>
+
+</body>
+</html>
